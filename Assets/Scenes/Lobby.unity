@@ -819,6 +819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 482709730}
   - component: {fileID: 482709729}
+  - component: {fileID: 482709731}
   m_Layer: 0
   m_Name: GestionnaireDeScene
   m_TagString: Untagged
@@ -840,7 +841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetsMasque: []
   objetsAffiche: []
-  textPourcentage: {fileID: 0}
+  textPourcentage: {fileID: 2113157658}
 --- !u!4 &482709730
 Transform:
   m_ObjectHideFlags: 0
@@ -855,6 +856,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482709731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482709728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d86b18f464056d49a4034c7b724ba71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victoire: 0
+  defaite: 0
+  temple: 0
+  donjon: 0
+  cabinePirates: 0
+  lobby: 0
 --- !u!1 &501839220
 GameObject:
   m_ObjectHideFlags: 0

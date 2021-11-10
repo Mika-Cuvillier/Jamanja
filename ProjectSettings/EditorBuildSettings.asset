@@ -4,7 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 0d8b423adb0276a4c8884347c19df96d
+  - enabled: 1
+    path: Assets/Scenes/CabinePirate.unity
+    guid: 3dd05d1ca287b0a4a921ee7176753cd8
+  - enabled: 1
+    path: Assets/Scenes/Donjon.unity
+    guid: 08447334a7c87154b91ede801cd0362f
+  - enabled: 1
+    path: Assets/Scenes/Temple.unity
+    guid: e9e8d20b804e33843a17a13af856b7c3
+  - enabled: 1
+    path: Assets/Scenes/Victoire.unity
+    guid: f52585db3495b7b4e88a5799f584999b
+  - enabled: 1
+    path: Assets/Scenes/Defaite.unity
+    guid: 58b332d8c13cbbc4f86150a0cc9efa8e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dfa3be96e3b040b469fd060f08a369de, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2ebc29ec099c6dc44993f64b4f952f59, type: 2}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class sceneloader : MonoBehaviour
 {
@@ -62,9 +63,9 @@ public class sceneloader : MonoBehaviour
        
         while (!asyncLoad.isDone)
         {
-            textPourcentage.text = ""+asyncLoad.progress*100+"%";
+            textPourcentage.text = ""+asyncLoad.progress*100+"%"; 
             yield return null;
-        }
+        } 
     
         yield return null;
     }

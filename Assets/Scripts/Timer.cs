@@ -26,6 +26,11 @@ public class Timer : MonoBehaviour
             valeurTemps = 0;
         }
         AfficherTemps(valeurTemps);
+
+        if(valeurTemps == 0)
+        {
+            GestionChangementScenes.Defaite();
+        }
     }
 
     void AfficherTemps(float tempsAffiche)
